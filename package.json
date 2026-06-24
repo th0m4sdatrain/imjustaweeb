@@ -4,7 +4,8 @@
   "description": "Simple Discord bot with a !message command",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "invite": "node invite.js"
   },
   "dependencies": {
     "discord.js": "^14.16.3",

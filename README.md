@@ -29,6 +29,18 @@ It sends `<message>` to the channel with that ID.
    npm start
    ```
 
+## Adding the bot to a server
+
+A bot can't join a server by itself — someone with **Manage Server** has to
+add it through an invite link. To get that link, run:
+
+```bash
+npm run invite
+```
+
+It prints a URL. Open it in a browser, pick your server, and click **Authorize**.
+(You must have the Manage Server permission on whatever server you choose.)
+
 ## Usage
 
 In any channel the bot can see, type:
